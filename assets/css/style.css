@@ -1,0 +1,33 @@
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles
+.page-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  
+  .project-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .project-tagline {
+    opacity: 0.9;
+    font-size: 1.2rem;
+  }
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+  }
+  
+  // Custom link colors
+  a {
+    color: #3498db;
+    
+    &:hover {
+      color: #2980b9;
+    }
+  }
+}
