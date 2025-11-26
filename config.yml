@@ -1,0 +1,16 @@
+title: "My Coding Journey"
+description: "Documenting my path to becoming a developer"
+theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics: # You can add this later
+
+# Navigation
+header_pages:
+  - index.md
+  - notes.md
+  - projects.md
+
+# Site settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
