@@ -1,16 +1,14 @@
-title: "My Coding Journey"
-description: "Documenting my path to becoming a developer"
-theme: jekyll-theme-cayman
-show_downloads: false
-google_analytics: # You can add this later
+# Add to your existing _config.yml
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assets/css"
+    values:
+      layout: null
 
-# Navigation
-header_pages:
-  - index.md
-  - notes.md
-  - projects.md
-
-# Site settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
+# Include custom CSS
+sass:
+  sass_dir: assets/css
